@@ -1,0 +1,6 @@
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\bin\Debug\HoursInLightYear.exe.config
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\bin\Debug\HoursInLightYear.exe
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\bin\Debug\HoursInLightYear.pdb
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\obj\Debug\HoursInLightYear.csprojResolveAssemblyReference.cache
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\obj\Debug\HoursInLightYear.exe
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\obj\Debug\HoursInLightYear.pdb

@@ -1,0 +1,6 @@
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\FastSummary\bin\Debug\FastSummary.exe.config
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\FastSummary\bin\Debug\FastSummary.exe
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\FastSummary\bin\Debug\FastSummary.pdb
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\FastSummary\obj\Debug\01. Fast-Summary.csprojResolveAssemblyReference.cache
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\FastSummary\obj\Debug\FastSummary.exe
+D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\FastSummary\obj\Debug\FastSummary.pdb
