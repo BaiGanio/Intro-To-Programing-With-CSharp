@@ -12,4 +12,3 @@ C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming cou
 C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task3. Conditional Statements\QuadraticEquation\obj\Debug\QuadraticEquation.pdb
 C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task3. Conditional Statements\QuadraticEquation\bin\Debug\QuadraticEquation.exe
 C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task3. Conditional Statements\QuadraticEquation\bin\Debug\QuadraticEquation.pdb
-C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task3. Conditional Statements\QuadraticEquation\obj\Debug\QuadraticEquation.csprojResolveAssemblyReference.cache

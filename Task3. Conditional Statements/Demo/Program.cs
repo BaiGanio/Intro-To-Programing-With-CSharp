@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuadraticEquation
+namespace Demo
 {
     class Program
     {
         static void Main(string[] args)
         {
-
-
-
         }
     }
 }
