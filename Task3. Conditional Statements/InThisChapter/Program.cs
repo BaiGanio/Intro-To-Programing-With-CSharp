@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -15,41 +16,31 @@ namespace InThisChapter
             Console.OutputEncoding = Encoding.UTF8;
 
             /*
-             
-             Implicit & Explicit Conversion:
-             
-             int i = 1;
-             IMPLICIT CONVERSION
-             float f = i + 0.007f;             
-             Console.WriteLine(f);
-             EXPLICIT CONVERSION
-             int i2 = (int) f;
-             Console.WriteLine(i2);
-             
+             Implicit & Explicit Type Conversion:
              */
 
+            Console.WriteLine("Implicit & Explicit Type Conversion:");
+            int x = 6;
+            Console.WriteLine("int x = {0}", x);
+            //IMPLICIT CONVERSION
+            double y = x + Math.PI;
+            Console.WriteLine("double y = x + {0} = {1}", Math.PI, y);
+            //EXPLICIT CONVERSION
+            int z  = (int)y;
+            Console.WriteLine("int z = (int) y = {0}", z);
+
+            Console.WriteLine("=============================================");
+
+
+            Console.WriteLine("******************************************");
             /*             
              Conditional statements if and if-else are conditional control statements. 
              Because of them the program can behave differently based on a defined 
              condition checked during the execution of the statement.                       
              */
-
-            //  if (Boolean expression)
-            //  {
-            //      Body of the conditional statement;
-            //  }   
-
-            //  if (булев израз)
-            //  {
-            //        тяло на условната конструкция;
-            //  }
-            //  else
-            //  {
-            //        тяло на else-конструкция;
-            //  }
-
+            Console.Write("ENTER BUS NUMBER BETWEEN 0 & 100 : ");
             int busNUmber = int.Parse(Console.ReadLine());
-           // int busNumber = 55;
+            // int busNumber = 55;
             if (busNUmber == 44)
             {
                 Console.WriteLine("This bus goes to the university!");
@@ -67,46 +58,70 @@ namespace InThisChapter
                 Console.WriteLine("There is no data for this number!");
             }
 
-            //  switch (селектор)
-            //  {
-            //      case стойност:
-            //          конструкция;
-            //          break;
-            //      case стойност-2:
-            //          конструкция;
-            //          break;
-            //      case стойност-3:
-            //          конструкция;
-            //          break;
-            //      case стойност-4:
-            //          конструкция;
-            //          break;
-            //      // …
-            //      default:
-            //          конструкция;
-            //          break;
-            //  }
+            Console.WriteLine("******************************************");
 
-            //try
-            //{
-            //    StreamReader sr = File.OpenText("data.txt");
-            //    Console.WriteLine("The first line of this file is {0}", sr.ReadLine());
-            //    sr.Close();
-            //}
-            //catch (Exception)
-            //{
-            //    Console.WriteLine("An error occurred! ");
-            //}
 
-            //try
-            //{
-            //    int five = int.Parse(Console.ReadLine());
-            //    Console.WriteLine("The number is {0}", five);
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine("Грешка в изпълнението на програмата! ->> {0}. Очакваният тип данни е integer type.", ex);
-            //}
+            Console.WriteLine("-----------------------------------------------");
+            /* Операторът switch сравнява резултата от селек­тора с всяка една стойност
+             * от изброените в тялото на switch конструкцията 'case' етикети. 
+             * Ако не се открие съвпадение, се изпълнява default конструкцията  */
+            Console.Write("ENTER CAPITAL & I'LL GUESS THE COUNTRY : ");
+
+            string capitalCity = Console.ReadLine();
+            int lettersInCapitalName = capitalCity.Length;
+            Console.WriteLine("Your city have {0} letters", lettersInCapitalName);
+
+            switch (capitalCity)
+            {
+                case "Аксаково" :
+                    Console.WriteLine("{0} е в България", capitalCity);
+                    break;
+                case "Paris":
+                    Console.WriteLine("{0} is in France", capitalCity);
+                    break;
+                case "Sidney":
+                    Console.WriteLine("{0} is in Australia", capitalCity);
+                    break;
+                case "Plovdiv":
+                    Console.WriteLine("{0} is in Bulgaria", capitalCity);
+                    break;
+                default:
+                    Console.WriteLine("THERE IS NO DATA...");
+                    break;
+            }
+
+            Console.WriteLine("-----------------------------------------------");
+
+
+            /* Handle custom exceptions */
+            Console.WriteLine("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("Handle custom exceptions");
+            try
+            {
+                Console.Write("ENTER SOME NAME INSTEAD OF NUMBER : ");
+                int five = int.Parse(Console.ReadLine());
+                Console.WriteLine("The number is {0}", five);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Грешка в изпълнението на програмата! ->>  Очакваният тип данни е integer type.");
+            }
+
+
+            try
+            {
+                // Try to enter real local path to the file like C://My Pictures/... or similar
+                // In other cases exception will be trown
+                StreamReader sr = File.OpenText("data.txt");
+                Console.WriteLine("The first line of this file is {0}", sr.ReadLine());
+                sr.Close();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("An error occurred when try to access the file C://My Documents/My Pictures/...! Please check the path to the file!");
+            }
+
+            Console.WriteLine("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$");
         }
     }
 }
