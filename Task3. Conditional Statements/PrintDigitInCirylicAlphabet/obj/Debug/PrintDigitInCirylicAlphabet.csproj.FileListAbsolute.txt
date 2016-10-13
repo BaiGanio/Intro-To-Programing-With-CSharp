@@ -1,0 +1,5 @@
+C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task3. Conditional Statements\PrintDigitInCirylicAlphabet\bin\Debug\PrintDigitInCirylicAlphabet.exe.config
+C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task3. Conditional Statements\PrintDigitInCirylicAlphabet\bin\Debug\PrintDigitInCirylicAlphabet.exe
+C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task3. Conditional Statements\PrintDigitInCirylicAlphabet\bin\Debug\PrintDigitInCirylicAlphabet.pdb
+C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task3. Conditional Statements\PrintDigitInCirylicAlphabet\obj\Debug\PrintDigitInCirylicAlphabet.exe
+C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task3. Conditional Statements\PrintDigitInCirylicAlphabet\obj\Debug\PrintDigitInCirylicAlphabet.pdb
