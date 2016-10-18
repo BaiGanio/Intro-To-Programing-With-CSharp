@@ -1,0 +1,85 @@
+using System;
+
+class NumbersToTextBG
+{
+    static void Main()
+    {
+        Console.Write("Въведете число от 0 до 100 : ");
+        int number = int.Parse(Console.ReadLine());
+        int tenths = number / 10;
+        int units = number % 10;
+
+        if (number >= 0 && number <= 19)
+        {
+            switch (number)
+            {
+                case 0: Console.WriteLine("нула"); break;
+                case 1: Console.WriteLine("едно"); break;
+                case 2: Console.WriteLine("две"); break;
+                case 3: Console.WriteLine("три"); break;
+                case 4: Console.WriteLine("четири"); break;
+                case 5: Console.WriteLine("пет"); break;
+                case 6: Console.WriteLine("шест"); break;
+                case 7: Console.WriteLine("седем"); break;
+                case 8: Console.WriteLine("осем"); break;
+                case 9: Console.WriteLine("девет"); break;
+                case 10: Console.WriteLine("десет"); break;
+                case 11: Console.WriteLine("единадесет"); break;
+                case 12: Console.WriteLine("дванадесет"); break;
+                case 13: Console.WriteLine("тринадесет"); break;
+                case 14: Console.WriteLine("четиринадесет"); break;
+                case 15: Console.WriteLine("петнадесет"); break;
+                case 16: Console.WriteLine("шестнадесет"); break;
+                case 17: Console.WriteLine("седемнадесет"); break;
+                case 18: Console.WriteLine("осемнадесет"); break;
+                case 19: Console.WriteLine("деветнадесет"); break;
+            }
+        }
+        else if (number >= 20 && number <= 99)
+        {
+
+            switch (tenths)
+            {
+                case 2: Console.Write("двадесет"); break;
+                case 3: Console.Write("тридесет"); break;
+                case 4: Console.Write("четиридесет"); break;
+                case 5: Console.Write("петдесет"); break;
+                case 6: Console.Write("шейсет"); break;
+                case 7: Console.Write("седемдесет"); break;
+                case 8: Console.Write("осемдесет"); break;
+                case 9: Console.Write("деветдесет"); break;
+
+            }
+
+
+            if (units != 0)
+            {
+                Console.Write(" и");
+            }
+            switch (units)
+            {
+                case 1: Console.Write(" едно"); break;
+                case 2: Console.Write(" две"); break;
+                case 3: Console.Write(" три"); break;
+                case 4: Console.Write(" четири"); break;
+                case 5: Console.Write(" пет"); break;
+                case 6: Console.Write(" шест"); break;
+                case 7: Console.Write(" седем"); break;
+                case 8: Console.Write(" осем"); break;
+                case 9: Console.Write(" девет"); break;
+
+
+            }
+
+            Console.WriteLine();
+        }
+        else if(number == 100)
+        {
+            Console.WriteLine("сто");
+        }
+         else
+        {
+            Console.WriteLine("Числото не е намерено.");
+        }
+    }
+}
