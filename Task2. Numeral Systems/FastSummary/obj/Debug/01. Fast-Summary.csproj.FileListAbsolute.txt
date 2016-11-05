@@ -4,3 +4,6 @@ D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\FastSummar
 D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\FastSummary\obj\Debug\01. Fast-Summary.csprojResolveAssemblyReference.cache
 D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\FastSummary\obj\Debug\FastSummary.exe
 D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\FastSummary\obj\Debug\FastSummary.pdb
+C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task2. Numeral Systems\FastSummary\bin\Debug\FastSummary.exe.config
+C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task2. Numeral Systems\FastSummary\obj\Debug\FastSummary.exe
+C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task2. Numeral Systems\FastSummary\obj\Debug\FastSummary.pdb
