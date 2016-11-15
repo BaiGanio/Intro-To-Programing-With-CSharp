@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Piggy-Bank", "PiggyBank
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Miser-Piggy", "MiserPiggy\04. Miser-Piggy.csproj", "{BF234F5D-4CCF-49B9-8586-3559542F4BD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPWithMethod", "MPWithMethod\MPWithMethod.csproj", "{3AA5DF55-B2E7-4005-9FAC-1398FF964DD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BF234F5D-4CCF-49B9-8586-3559542F4BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF234F5D-4CCF-49B9-8586-3559542F4BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF234F5D-4CCF-49B9-8586-3559542F4BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA5DF55-B2E7-4005-9FAC-1398FF964DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA5DF55-B2E7-4005-9FAC-1398FF964DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA5DF55-B2E7-4005-9FAC-1398FF964DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA5DF55-B2E7-4005-9FAC-1398FF964DD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
