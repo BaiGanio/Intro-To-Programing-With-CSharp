@@ -72,7 +72,6 @@ namespace ReadExternalFile
             }
             return occurences;
         }
-
         static string[] FindPrivateData(string filePath)
         {
             string[] foundedData = new string[2];
