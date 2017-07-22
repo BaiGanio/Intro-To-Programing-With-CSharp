@@ -7,7 +7,6 @@ namespace демо2
     {
         static void Main()
         {
-
             int guestsCapacity = 28;
             int guestTicket = 210;
             int teachersCapacity = 22;

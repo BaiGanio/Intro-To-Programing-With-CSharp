@@ -164,6 +164,10 @@ namespace ProjectHelpers
                     {
                         controlNumber = 0;
                     }
+                    if (male)
+                    {
+                        
+                    }
 
                     Console.WriteLine("| Year {0} | Month {1} | Day {2} |", year, month, day);
                     string[] newData = DealMonthData(month, year, day);
