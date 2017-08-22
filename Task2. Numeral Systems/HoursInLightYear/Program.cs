@@ -7,7 +7,7 @@ namespace HoursInLightYear
     {
         static void Main(string[] args)
         {
-           
+           // Hi !
         }
     }
 }
