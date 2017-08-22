@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Project-Helpers", "ProjectHelpers\01. Project-Helpers.csproj", "{F40718E9-21CC-4620-A527-DEA8A7FC7EC4}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo", "demo\demo.csproj", "{22337331-81C6-4208-98C3-F63D56F7681D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "демо2", "демо2\демо2.csproj", "{6319E7A6-0AFA-4433-B6E2-F1BE820D0E16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fake", "Fake\Fake.csproj", "{E53A072B-A0E0-4D56-B34F-2DE1BD4C0FB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,8 +59,15 @@ Global
 		{6319E7A6-0AFA-4433-B6E2-F1BE820D0E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6319E7A6-0AFA-4433-B6E2-F1BE820D0E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6319E7A6-0AFA-4433-B6E2-F1BE820D0E16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53A072B-A0E0-4D56-B34F-2DE1BD4C0FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53A072B-A0E0-4D56-B34F-2DE1BD4C0FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53A072B-A0E0-4D56-B34F-2DE1BD4C0FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53A072B-A0E0-4D56-B34F-2DE1BD4C0FB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6676E4A8-C35E-4ABE-BA96-E735F1A14384}
 	EndGlobalSection
 EndGlobal
