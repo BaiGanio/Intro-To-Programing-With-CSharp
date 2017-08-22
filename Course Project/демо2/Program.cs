@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 
 namespace демо2
 {
@@ -83,6 +82,7 @@ namespace демо2
             double maxProfit = guestsMaxProfit + teachersMaxProfit + studentsMaxProfit;
             Console.WriteLine("Maximum profit for event : ${0:F2}", maxProfit);
             Console.WriteLine("Difference : ${0:F2}", maxProfit - currentPerformanceIncome);
+            // йуст то тест 
         }
     }
 }
