@@ -1,8 +1,0 @@
-D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\bin\Debug\HoursInLightYear.exe.config
-D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\bin\Debug\HoursInLightYear.exe
-D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\bin\Debug\HoursInLightYear.pdb
-D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\obj\Debug\HoursInLightYear.exe
-D:\PROGRAMING\MY PROJECTS\Plovdiv University Projects\Numeral Systems\HoursInLightYear\obj\Debug\HoursInLightYear.pdb
-C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task2. Numeral Systems\HoursInLightYear\bin\Debug\HoursInLightYear.exe.config
-C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task2. Numeral Systems\HoursInLightYear\obj\Debug\HoursInLightYear.exe
-C:\Users\Republic Of Gamers\OneDrive\Plovdiv University\Intro to programming course\Увод в програмирането C# 2016-2017\Task2. Numeral Systems\HoursInLightYear\obj\Debug\HoursInLightYear.pdb
