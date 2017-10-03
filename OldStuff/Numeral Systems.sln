@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Hours-In-Light-Year", "HoursInLightYear\02. Hours-In-Light-Year.csproj", "{AE2761C6-1DB5-45A8-884A-D71ED0859314}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Fast-Summary", "FastSummary\01. Fast-Summary.csproj", "{7326E6C8-F4C4-4EE0-B918-A9F742268513}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Kilometers-In-Light-Year", "KilometersInLightYear\03. Kilometers-In-Light-Year.csproj", "{657D7DA9-E42B-4A88-9B22-8912DA08C0B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveMySkin30", "CharLowerToUpper\SaveMySkin30.csproj", "{DCECF82E-25C2-43D0-A9F1-A70E4C0869A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightInSolarSystemPlanets", "WeightInSolarSystemPlanets\WeightInSolarSystemPlanets.csproj", "{028B3E7C-25B9-4BF7-A154-256DC206A8E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +31,19 @@ Global
 		{657D7DA9-E42B-4A88-9B22-8912DA08C0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{657D7DA9-E42B-4A88-9B22-8912DA08C0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{657D7DA9-E42B-4A88-9B22-8912DA08C0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCECF82E-25C2-43D0-A9F1-A70E4C0869A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCECF82E-25C2-43D0-A9F1-A70E4C0869A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCECF82E-25C2-43D0-A9F1-A70E4C0869A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCECF82E-25C2-43D0-A9F1-A70E4C0869A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028B3E7C-25B9-4BF7-A154-256DC206A8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028B3E7C-25B9-4BF7-A154-256DC206A8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028B3E7C-25B9-4BF7-A154-256DC206A8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028B3E7C-25B9-4BF7-A154-256DC206A8E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79497114-A9A8-433E-B186-2E4B65708C79}
 	EndGlobalSection
 EndGlobal
