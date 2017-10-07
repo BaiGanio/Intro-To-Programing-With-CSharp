@@ -1,2 +1,13 @@
 ﻿		1) Show what's in the folders befor running the program. 
 			- What is this bin/Debug/my-project.exe
+
+		2) Quick words 'why objects, not variables...'
+			- Get own student idea in place
+			- Objects and metsods - each object can have own methods
+
+		3) Student 'peshko' and student created from console input
+			- Demo: 
+				- use  random generator for the faculty numbers
+				- use random generator for the overall score
+			- Demo: 
+				- ask user to change peshko's overall score and show the new results

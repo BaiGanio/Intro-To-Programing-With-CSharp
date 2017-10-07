@@ -50,6 +50,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\PlayWavFormatMusic.exe" />
     <Content Include="HowTo.txt" />
     <Content Include="wav-files\nj.wav" />
   </ItemGroup>

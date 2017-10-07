@@ -19,13 +19,15 @@ namespace PlayWavFormatMusic
                 University = "ХаФана бийч, бейби ;)",
                 FacultyNumber = 9088888,
                 IsGraduated = false,
-                OverallScore = 99.99
+                OverallScore = 69.69
             };
 
             Console.WriteLine();
             Console.WriteLine("--------------------------------------");
             Console.WriteLine("Greetings from the best party place in the world!");
             Console.WriteLine("Любен Киков");
+            Console.WriteLine("--------------------------------------");
+            Console.WriteLine("Week 3 - Course intro to programming with c#");
             Console.WriteLine();
             Console.WriteLine("--------------------------------------");
             Console.WriteLine("Press any key to stop the program!");
