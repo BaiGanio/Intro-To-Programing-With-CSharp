@@ -10,8 +10,8 @@ namespace PlayWavFormatMusic
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.WriteLine("ХаФана бийч, бейби ;)");
-            //var simpleSound = new SoundPlayer("../../wav-files/nj.wav");
-            //simpleSound.Play();
+            var simpleSound = new SoundPlayer("../../wav-files/nj.wav");
+            simpleSound.Play();
 
             Student peshko = new Student()
             {
