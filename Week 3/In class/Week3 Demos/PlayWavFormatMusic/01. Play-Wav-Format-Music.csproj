@@ -52,7 +52,11 @@
   <ItemGroup>
     <Content Include="bin\Debug\PlayWavFormatMusic.exe" />
     <Content Include="HowTo.txt" />
-    <Content Include="wav-files\nj.wav" />
+    <Content Include="bin\Debug\nj.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\" />
+    <Folder Include="wav-files\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
