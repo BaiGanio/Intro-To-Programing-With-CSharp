@@ -1,6 +1,0 @@
-Add new project in the Solution from task 01.
-The project must be Console App !!!
-
-Create program which show on the screen this type of message:
-"Hi I am (your name)"
-
