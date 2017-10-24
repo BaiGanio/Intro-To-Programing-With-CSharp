@@ -1,3 +1,0 @@
-Create blank solution. 
-Give it meaningfull name in this format (Must put the format like (f.Num, Name, Course, etc. )). 
-Location is your own choice.
