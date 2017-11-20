@@ -12,12 +12,12 @@ namespace Task1
 
         private static void STD3A()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Hello STD 1A!");
         }
 
         private static void STD1A()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Hello STD 3A!");
         }
     }
 }
