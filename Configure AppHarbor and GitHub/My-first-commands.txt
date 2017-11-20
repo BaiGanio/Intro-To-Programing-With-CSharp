@@ -27,7 +27,7 @@ new-item D://my-cool-projects/my-fake-file.txt -itemtype file
 -------------------------------------------------------------
 
 /* 
-	This 'git' commands are used to be differed from the 'regular' ones.
+	The 'git' commands are used to be differed from the 'regular' ones.
 	The 'regular' ones are related to the local machine only.
 	Git commands are regognized by the PowerShell console with a special meaning.
 	In this case we will use them to connect and store data and files to repository 
