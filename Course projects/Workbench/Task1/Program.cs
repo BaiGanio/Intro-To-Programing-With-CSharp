@@ -12,12 +12,12 @@ namespace Task1
 
         private static void STD3A()
         {
-            Console.WriteLine("Hello STD 1A!");
+            Console.WriteLine("Hello STD 3A! Edited by Tatyana!");
         }
 
         private static void STD1A()
         {
-            Console.WriteLine("Hello STD 3A!");
+            Console.WriteLine("Hello STD 1A!");
         }
     }
 }
