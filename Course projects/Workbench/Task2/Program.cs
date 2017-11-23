@@ -10,9 +10,10 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            
-
-
+            Console.WriteLine("Enter number with 7 digits:");
+            int myDigits = int.Parse(Console.ReadLine());
+            int FourthNumber = (myDigits / 1000) % 10;
+            Console.WriteLine("The 4-th digit is {0}", FourthNumber);
         }
     }
 }
