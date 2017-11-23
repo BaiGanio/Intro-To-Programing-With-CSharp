@@ -10,6 +10,7 @@ namespace Task3
     {
         public static void BooleanExpression()
          {
+            Console.WriteLine("Enter a few variables to calculate our boolean expression!");
             Console.Write("X=");
             double x = double.Parse(Console.ReadLine());
             Console.Write("A=");
