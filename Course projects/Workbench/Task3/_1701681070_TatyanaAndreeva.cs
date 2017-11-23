@@ -27,8 +27,8 @@ namespace Task3
         }
         public static bool BooleanCalculation(double x,double a,double y, double e, double z)
         {
-            bool f = Math.Sqrt((x + 1 - a * y * y) / y + x) > 0 || Math.Pow(e, y) < (z - 1) && Math.Sqrt(z - 1) <= 5;
-            return f;
+            bool result= Math.Sqrt((x + 1 - a * y * y) / y + x) > 0 || Math.Pow(e, y) < (z - 1) && Math.Sqrt(z - 1) <= 5;
+            return result;
         }
        
     }
