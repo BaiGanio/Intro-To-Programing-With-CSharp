@@ -21,11 +21,11 @@ namespace Task3
             double e = double.Parse(Console.ReadLine());
             Console.Write("Z=");
             double z = double.Parse(Console.ReadLine());
-            bool result = BoolMethod(x,a,y,e,z);
+            bool result = BooleanCalculation(x,a,y,e,z);
             Console.WriteLine(result);
             Console.ReadKey(true);
         }
-        public static bool BoolMethod(double x,double a,double y, double e, double z)
+        public static bool BooleanCalculation(double x,double a,double y, double e, double z)
         {
             bool f = Math.Sqrt((x + 1 - a * y * y) / y + x) > 0 || Math.Pow(e, y) < (z - 1) && Math.Sqrt(z - 1) <= 5;
             return f;
