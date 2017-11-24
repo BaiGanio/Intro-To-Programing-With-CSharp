@@ -33,7 +33,9 @@ namespace Task1
             while (number != 0)
             {
                 if ((number % 16) < 10)
+                {
                     hex = number % 16 + hex;
+                }
                 else
                 {
                     string s = "";
