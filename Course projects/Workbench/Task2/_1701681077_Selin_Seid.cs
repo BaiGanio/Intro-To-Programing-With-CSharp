@@ -15,11 +15,17 @@ namespace Task2
             double beta = double.Parse(Console.ReadLine());
             Console.Write("Enter γ:");
             double gama = double.Parse(Console.ReadLine());
-            double a = Math.Pow((Math.Sin(Math.Pow(Math.PI, 4))), 2);
+             double a = Math.Pow((Math.Sin(Math.Pow(Math.PI, 4))), 2);
             double b = Math.Pow(Math.Cos(6), (1 / 5));
             double c = Math.Abs(Math.Tan(gama));
-            Console.WriteLine("The expresion is: ");
-            Console.WriteLine(beta + a / b + (1 / c));
+            double result = ExpresionCalculation(beta, gama,a,b,c);
+            Console.Write("The expresion is: ");
+           Console.WriteLine(result);
+        }
+        public static double ExpresionCalculation(double beta, double gama,double a,double b,double c )
+        {
+            double result = beta + a / b + (1 / c);
+            return result;
         }
     }
 }
