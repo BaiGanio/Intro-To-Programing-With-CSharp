@@ -15,6 +15,9 @@ namespace Task1
             _1701681070_TatyanaAndreeva.ConvertToBinary();
             _1701681070_TatyanaAndreeva.ConvertToOcta();
             _1701681070_TatyanaAndreeva.ConvertToHexa();
+            _1701681077_Selin_Seid.ConvertToBinary();
+            _1701681077_Selin_Seid.ConvertToOctal();
+            _1701681077_Selin_Seid.ConvertToHex();
         }
 
         private static void STD1A()
