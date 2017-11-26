@@ -1,4 +1,5 @@
 ﻿using System;
+using Task1.STD1A;
 
 namespace Task1
 {
@@ -22,7 +23,7 @@ namespace Task1
 
         private static void STD1A()
         {
-            Console.WriteLine("Hello STD 1A!");
+            _1701681009_Lusian_Manolov.ConvertToDifferentNumeralSystems();
         }
     }
 }
