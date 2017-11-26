@@ -13,13 +13,13 @@ namespace Task2.STD1A
             const double pi = Math.PI;
 
             Console.Write("Enter R=");
-            double R = double.Parse(Console.ReadLine());
+            double bigRadius = double.Parse(Console.ReadLine());
             Console.Write("Enter r=");
-            double r = double.Parse(Console.ReadLine());
+            double littleRadius = double.Parse(Console.ReadLine());
             Console.Write("Enter H=");
-            double H = double.Parse(Console.ReadLine());
+            double coneHeight = double.Parse(Console.ReadLine());
 
-            double V = pi * H * (R * R + R * r + r * r) / 3;
+            double V = pi * coneHeight * (Math.Pow(bigRadius, 2) + bigRadius * littleRadius + Math.Pow(littleRadius, 2)) / 3;
 
             Console.WriteLine("V= {0:F2}", V);
         }
