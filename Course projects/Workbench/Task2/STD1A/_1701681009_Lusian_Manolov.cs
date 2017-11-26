@@ -19,9 +19,9 @@ namespace Task2.STD1A
             Console.Write("Enter H=");
             double coneHeight = double.Parse(Console.ReadLine());
 
-            double V = (pi * coneHeight) * (Math.Pow(bigRadius, 2) + ((bigRadius * littleRadius) + Math.Pow(littleRadius, 2))) / 3;
+            double volumeOfTrunkatedCone = (pi * coneHeight) * (Math.Pow(bigRadius, 2) + ((bigRadius * littleRadius) + Math.Pow(littleRadius, 2))) / 3;
 
-            Console.WriteLine("V= {0:F2}", V);
+            Console.WriteLine("V= {0:F2}", volumeOfTrunkatedCone);
         }
     }
 }
