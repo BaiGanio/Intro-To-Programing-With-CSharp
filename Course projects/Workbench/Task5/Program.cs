@@ -15,12 +15,12 @@ namespace Task5
             STD3A();
         }
 
-        public static void STD1A()
+        static void STD1A()
         {
             _1701681009_Lusian_Manolov.UsingTheMethodCorForPerformingDifferentTasks_162();
         }
 
-        public static void STD3A()
+        static void STD3A()
         {
 
         }

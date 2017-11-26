@@ -35,7 +35,7 @@ namespace Task5.STD1A
                 {
                     Console.WriteLine("Incorrect data. The two numbers must be between -30 and 30.");
                 }
-            } while (p < -30 || p > 30 || q < -30 || q > 30);
+            } while ((p < -30) || (p > 30) || (q < -30) || (q > 30));
 
             /*c*/
             double cor = (DefiningAMethodCor(p, 3 * q) - DefiningAMethodCor(3 * p, q)) / (DefiningAMethodCor(p, q));
@@ -51,7 +51,7 @@ namespace Task5.STD1A
             for (q = 10; q <= 50; q += 4)
             {
                 double x = DefiningAMethodCor(p, q);
-                if ((int)x % 2 == 0)
+                if ((int)(x % 2) == 0)
                     Console.WriteLine((int)x);
             }
         }

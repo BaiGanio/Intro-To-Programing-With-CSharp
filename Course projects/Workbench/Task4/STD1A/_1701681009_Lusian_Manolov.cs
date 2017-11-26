@@ -8,17 +8,17 @@ namespace Task4.STD1A
 {
     public static class _1701681009_Lusian_Manolov
     {
-        public static void DisplayFigure_87D()
+        public static void DisplayTriangleUsingStars_87D()
         {
-            for (int i = 1; i <= 7; i++)
+            for (int figureHeight = 1; figureHeight <= 7; figureHeight++)
             {
-                Console.Write("{0," + (8 - i) + "}", "*");
-                for (int j = 1; j < i; j++)
+                Console.Write("{0," + (8 - figureHeight) + "}", "*");
+                for (int j = 1; j < figureHeight; j++)
                 {
                     Console.Write("*");
                 }
 
-                for (int j = 0; j < i - 1; j++)
+                for (int j = 0; j < figureHeight - 1; j++)
                 {
                     Console.Write("*");
                 }

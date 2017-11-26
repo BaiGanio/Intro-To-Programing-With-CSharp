@@ -10,7 +10,7 @@ namespace Task3.STD1A
     {
         public static void TransformingAnExpressionInCSharp_37_3()
         {
-            Console.WriteLine("q/(p+r)-3*q!=5*p||p>=r");
+            Console.WriteLine("((q/(p+r))-(3*q))!=(5*p)||(p>=r)");
         }
     }
 }
