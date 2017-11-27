@@ -15,8 +15,8 @@ namespace Task4
                 {
                     for (int y = -16; y <= 16; y++)
                     {
-                        double A = (Math.Pow(Math.Abs(x), 2) / 169) + (Math.Pow(Math.Abs(y), 2) / 256);
-                        if (A < 1)
+                        double a= (Math.Pow(Math.Abs(x), 2) / 169) + (Math.Pow(Math.Abs(y), 2) / 256);
+                        if (a < 1)
                         {
                             Console.WriteLine("A[{0},{1}]", x, y);
                             count++;
