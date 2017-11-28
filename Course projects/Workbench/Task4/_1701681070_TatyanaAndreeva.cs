@@ -11,9 +11,13 @@ namespace Task4
         public static void CountingPoints()
         {
                 int count = 0;
-                for (int x = -13; x <= 13; x++)
+            int lowestPointForX = -13;
+            int highestPointForX = 13;
+            int lowestPointForY= -16;
+            int highestPointForY = 16;
+                for (int x = lowestPointForX; x <= highestPointForX; x++)
                 {
-                    for (int y = -16; y <= 16; y++)
+                    for (int y = lowestPointForY; y <= highestPointForY; y++)
                     {
                         double a= (Math.Pow(Math.Abs(x), 2) / 169) + (Math.Pow(Math.Abs(y), 2) / 256);
                         if (a < 1)
