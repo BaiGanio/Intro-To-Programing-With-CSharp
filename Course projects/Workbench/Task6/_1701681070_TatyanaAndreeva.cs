@@ -11,7 +11,7 @@ namespace Task6
         public static void HydrologicalStations()
         {
             int n = 0;
-            while (n < 1 || n > 31) ;
+            while (n < 1 && n > 31) ;
             {
                 Console.WriteLine("Въведете брой дни в месеца: ");
                 n = int.Parse(Console.ReadLine());
@@ -19,18 +19,18 @@ namespace Task6
             Console.WriteLine("Елементи за станция А: ");
             double[] a = new double[n];
             Rain(a);
-            Console.WriteLine("Средното количество  валежи за станция А е: {0}", Average(a));
             MaxRain(a);
+            Console.WriteLine("Средното количество валежи за станция А е {0}", Average(a));
             Console.WriteLine("Елементи за станция B: ");
             double[] b = new double[n];
             Rain(b);
-            Console.WriteLine("Средното количество  валежи за станция B е: {0}", Average(b));
             MaxRain(b);
+            Console.WriteLine("Средното количество валежи за станция В е {0}", Average(b));
             Console.WriteLine("Елементи за станция С: ");
             double[] c = new double[n];
             Rain(c);
-            Console.WriteLine("Средното количество  валежи за станция C е: {0}", Average(c));
             MaxRain(c);
+            Console.WriteLine("Средното количество валежи за станция С е {0}", Average(c));
         }
         public static void Rain(double[] input)
         {
@@ -46,7 +46,7 @@ namespace Task6
             {
                 average += input[i];
             }
-            return (average / input.Length);
+            return average / input.Length;
         }
         public static void MaxRain(double[] input)
         {
@@ -57,9 +57,9 @@ namespace Task6
                 if (input[i] > max)
                 {
                     count++;
-                    Console.WriteLine("Броят на дните,които са надхвърлили средното количество валежи е {0}", count);
                 }
             }
+            Console.WriteLine("Броят на дните,които са надхвърлили средното количество валежи е {0}", count);
         }
 
     }
