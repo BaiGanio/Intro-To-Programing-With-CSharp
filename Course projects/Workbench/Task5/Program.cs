@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task5.STD1A;
 
 namespace Task5
 {
@@ -19,7 +20,7 @@ namespace Task5
         }
         public static void STD1A()
         {
-
+            _1701681009_Lusian_Manolov.UsingTheMethodCorForPerformingDifferentTasks_162();
         }
     }
 }
