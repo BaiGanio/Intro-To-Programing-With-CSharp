@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Task5.STD1A;
 
 namespace Task5
 {
@@ -14,15 +13,13 @@ namespace Task5
             STD1A();
             STD3A();
         }
-
-        static void STD1A()
+        public static void STD3A()
+        {
+            _1701681070_TatyanaAndreeva.ComputationalExpression();
+        }
+        public static void STD1A()
         {
             _1701681009_Lusian_Manolov.UsingTheMethodCorForPerformingDifferentTasks_162();
-        }
-
-        static void STD3A()
-        {
-
         }
     }
 }
