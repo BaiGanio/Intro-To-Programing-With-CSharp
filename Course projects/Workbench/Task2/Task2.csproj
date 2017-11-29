@@ -44,7 +44,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="_1701681070_TatyanaAndreeva.cs" />
+    <Compile Include="STD1A\_1701681009_Lusian_Manolov.cs" />
+    <Compile Include="STD3A\_1701681070_TatyanaAndreeva.cs" />
     <Compile Include="_1701681077_Selin_Seid.cs" />
   </ItemGroup>
   <ItemGroup>

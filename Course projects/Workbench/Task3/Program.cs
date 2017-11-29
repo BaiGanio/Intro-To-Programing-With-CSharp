@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task3.STD1A;
 
 namespace Task3
 {
@@ -20,7 +21,7 @@ namespace Task3
         }
         public static void STD1A()
         {
-
+            _1701681009_Lusian_Manolov.TransformingAnExpressionInCSharp_37_3();
         }
     }
 }
