@@ -8,7 +8,7 @@ namespace Task7
 {
     public static class _1701681070_TatyanaAndreeva
     {
-        public static void ChangingDigitByWord()
+        public static void DigitAsWord()
             {
             ReturnWord();
             }

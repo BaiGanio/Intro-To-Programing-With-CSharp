@@ -15,7 +15,7 @@ namespace Task7
         }
         public static void STD3A()
         {
-            _1701681070_TatyanaAndreeva.ChangingDigitByWord();
+            _1701681070_TatyanaAndreeva.DigitAsWord();
         }
         public static void STD1A()
         {
