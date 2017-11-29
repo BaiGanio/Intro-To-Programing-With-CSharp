@@ -27,11 +27,11 @@ namespace Task5
 
             }
 
-            double result = (Method(a + b)) * (Method(Math.Abs(a - b)));
+            double result = (CalculationMethod(a + b)) * (CalculationMethod(Math.Abs(a - b)));
             Console.WriteLine("{0:F2}", result);
 
         }
-        public static double Method(int n)
+        public static double CalculationMethod(int n)
         {
             double F = 0;
             for (int i = 1; i <= n; i++)
