@@ -12,7 +12,7 @@ namespace Task5.STD3A
         {
             Random random = new Random();
             Console.WriteLine("The negative generated numbers are: ");
-            for (int i = 1; i <= 55; i++)
+            for (int randomNumbers = 1; randomNumbers <= 55; randomNumbers++)
             {
                 int number = random.Next(-100, 101);
 
@@ -26,7 +26,7 @@ namespace Task5.STD3A
             double average = 0;
             int count = 0;
             Console.WriteLine("Please enter 13 numbers: ");
-            for (int i = 1; i <= 13; i++)
+            for (int numbers = 1; numbers <= 13; numbers++)
             {
                 double number = double.Parse(Console.ReadLine());
                 if (number > 0 || number < -300)
@@ -44,15 +44,15 @@ namespace Task5.STD3A
             int b = int.Parse(Console.ReadLine());
             Console.Write("Enter c: ");
             int c = int.Parse(Console.ReadLine());
-            Console.WriteLine(Pro(Math.Abs(a - b)) * Pro(c));
+            Console.WriteLine(Product(Math.Abs(a - b)) * Product(c));
         }
 
-        static double Pro(int k)
+        static double Product(int k)
         {
             Random random = new Random();
             double product = 1;
 
-            for (int i = 1; i <= k; i++)
+            for (int randomNumbers = 1; randomNumbers <= k; randomNumbers++)
             {
                 int numbers = random.Next();
                 if (numbers >= -10 && numbers <= 10)
