@@ -17,20 +17,20 @@ namespace Task6
                 n = int.Parse(Console.ReadLine());
             } 
             Console.WriteLine("Елементи за станция А: ");
-            double[] A = new double[n];
-            Rain(A);
-            Console.WriteLine("Средното количество  валежи за станция А е: {0}", Average(A));
-            MaxRain(A);
+            double[] a = new double[n];
+            Rain(a);
+            Console.WriteLine("Средното количество  валежи за станция А е: {0}", Average(a));
+            MaxRain(a);
             Console.WriteLine("Елементи за станция B: ");
-            double[] B = new double[n];
-            Rain(B);
-            Console.WriteLine("Средното количество  валежи за станция B е: {0}", Average(B));
-            MaxRain(B);
+            double[] b = new double[n];
+            Rain(b);
+            Console.WriteLine("Средното количество  валежи за станция B е: {0}", Average(b));
+            MaxRain(b);
             Console.WriteLine("Елементи за станция С: ");
-            double[] C = new double[n];
-            Rain(C);
-            Console.WriteLine("Средното количество  валежи за станция C е: {0}", Average(C));
-            MaxRain(C);
+            double[] c = new double[n];
+            Rain(c);
+            Console.WriteLine("Средното количество  валежи за станция C е: {0}", Average(c));
+            MaxRain(c);
         }
         public static void Rain(double[] input)
         {
