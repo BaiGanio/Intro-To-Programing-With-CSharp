@@ -12,9 +12,15 @@ namespace Task3
         {
             Console.WriteLine("Enter the number of month:");
             int month = int.Parse(Console.ReadLine());
+            SwitchMonth(month);
+           
+        }
+        public static void SwitchMonth(int month)
+        {
             double intRate = 0;
             switch (month)
             {
+                
                 case 1:
                 case 12:
                     intRate = 3.8;
@@ -39,7 +45,9 @@ namespace Task3
                     Console.WriteLine("Unvalid number of month!");
                     break;
             }
-            Console.WriteLine("The interest rate is: " + intRate);
+             Console.WriteLine("The interest rate is: " + intRate);
         }
+           
+        
     }
 }
