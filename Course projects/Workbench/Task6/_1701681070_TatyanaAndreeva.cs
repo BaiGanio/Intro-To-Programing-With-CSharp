@@ -11,11 +11,11 @@ namespace Task6
         public static void HydrologicalStations()
         {
             int n = 0;
-            do
+            while (n < 1 || n > 31) ;
             {
                 Console.WriteLine("Въведете брой дни в месеца: ");
                 n = int.Parse(Console.ReadLine());
-            } while (n < 1 || n > 31);
+            } 
             Console.WriteLine("Елементи за станция А: ");
             double[] A = new double[n];
             Rain(A);
