@@ -16,7 +16,8 @@ namespace Task2
         }
         private static void STD3A()
         {
-            _1701681070_TatyanaAndreeva_ex12.FourthDigit(); 
+            _1701681070_TatyanaAndreeva_ex12.FourthDigit();
+            _1701681077_Selin_Seid.CalculateExpression_Test_1_2II();
         }
         private static void STD1A()
         {

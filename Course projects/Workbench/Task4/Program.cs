@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Task4.STD1A;
+using Task4.STD3A;
 
 namespace Task4
 {
@@ -22,7 +23,7 @@ namespace Task4
 
         public static void STD3A()
         {
-
+            _1701681070_TatyanaAndreeva.CountingPoints();
         }
     }
 }
