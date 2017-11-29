@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace Task7
 {
-   public static class _1701681070_TatyanaAndreeva
+    public static class _1701681070_TatyanaAndreeva
     {
-
+        public static void ChangingDigitByWord()
+            {
+            ReturnWord();
+            }
         public static int ReturnWord()
         {
             Console.WriteLine("Enter number");
