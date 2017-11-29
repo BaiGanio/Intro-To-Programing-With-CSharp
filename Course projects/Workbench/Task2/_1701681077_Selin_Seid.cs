@@ -18,11 +18,11 @@ namespace Task2
             double a = Math.Pow((Math.Sin(Math.Pow(Math.PI, 4))), 2);
             double b = Math.Pow(Math.Cos(6), (1 / 5));
             double c = Math.Abs(Math.Tan(gama));
-            double result = ExpresionCalculation(beta, gama,a,b,c);
-            Console.Write("The expresion is: ");
-           Console.WriteLine(result);
+            double result = ExpressionCalculation(beta, gama,a,b,c);
+            Console.Write("The expression is: ");
+            Console.WriteLine(result);
         }
-        public static double ExpresionCalculation(double beta, double gama,double a,double b,double c )
+        public static double ExpressionCalculation(double beta, double gama,double a,double b,double c )
         {
             double result = beta + a / b + (1 / c);
             return result;
