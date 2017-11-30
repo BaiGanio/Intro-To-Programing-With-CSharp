@@ -8,9 +8,7 @@ namespace Task6.STD3A
 {
     public static class _1701681077_Selin_Seid
     {
-        public static object CalculateArrayC { get; private set; }
-
-        public static void CalculateAverageOfAnArray_408()
+         public static void CalculateAverageOfAnArray_408()
         {
 
             int arrayLength = 3;

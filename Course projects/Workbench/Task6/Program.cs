@@ -16,7 +16,7 @@ namespace Task6
         }
         public static void STD3A()
         {
-           // _1701681070_TatyanaAndreeva.HydrologicalStations();
+            _1701681070_TatyanaAndreeva.HydrologicalStations();
             _1701681077_Selin_Seid.CalculateAverageOfAnArray_408();
           
         }
