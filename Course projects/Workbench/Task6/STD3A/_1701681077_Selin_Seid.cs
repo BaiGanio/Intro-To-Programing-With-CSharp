@@ -8,68 +8,77 @@ namespace Task6.STD3A
 {
     public static class _1701681077_Selin_Seid
     {
+        public static object CalculateArrayC { get; private set; }
+
         public static void CalculateAverageOfAnArray_408()
         {
 
-            int arr = 3;
-            double[] A = new double[arr];
-            double[] B = new double[arr];
-            double[] C = new double[arr];
+            int arrayLength = 3;
+           
             Console.WriteLine("Въведете елементите на масив А");
-            EnterArray(A);
-            Console.WriteLine("Въведете елементите на масив В");
-            EnterArray(B);
-            Console.WriteLine("Въведете елементите на масив С");
-            EnterArray(C);
-            Console.WriteLine("Средноаритметичното на елементите на трите масива:");
-            Console.WriteLine("Масив А: " + Average(A));
-            Console.WriteLine("Масив В: " + Average(B));
-            Console.WriteLine("Масив С: " + Average(C));
-            Console.WriteLine("Максимакното Средноаритметично е:");
-            double maxAverage;
-            if (Average(A) > Average(B))
-            {
-                maxAverage = Average(A);
-            }
-            else
-            {
-                maxAverage = Average(B);
-            }
-            if (Average(C) > maxAverage)
-            {
-                maxAverage = Average(C);
-            }
-            Console.WriteLine(maxAverage);
-            int j = 0, n = arr;
-            do
-            {
-                for (int i = 0; i < n; i++)
-                {
-                    C[j] = A[i] + (((n * n) + 1) * B[n - 1]);
-                    arr--;
-                    j++;
-                }
+            double[] a = EnterArray(arrayLength);
+            Console.WriteLine($"Средноаритметичното на елементите на масив A:{Average(a)}");
 
-            } while (j != n);
-            foreach (var item in C)
-            {
-                Console.Write(item + " ");
-            }
+            Console.WriteLine("Въведете елементите на масив B");
+            double[] b = EnterArray(arrayLength);
+            Console.WriteLine($"Средноаритметичното на елементите на масив B:{Average(b)}");
+           
+            Console.WriteLine("Въведете елементите на масив C");
+            double[] c = EnterArray(arrayLength);
+            Console.WriteLine($"Средноаритметичното на елементите на масив C:{Average(c)}");
+            
+            Console.WriteLine("Максималното Средноаритметично е:");
+            CalculateMaxAverage(a, b, c, arrayLength);
+            CalculateExpressionForArrayC(arrayLength, a, b, c);
             Console.WriteLine();
         }
 
-        internal static void EnterArray(object a)
+        public static void CalculateMaxAverage(double[] a, double[] b, double[] c, int arrayLenght)
         {
-            throw new NotImplementedException();
-        }
-
-        public static void EnterArray(double[] a)
-        {
-            for (int i = 0; i < a.Length; i++)
+            double maxAverage;
+            if (Average(a) > Average(b))
             {
+                maxAverage = Average(a);
+            }
+            else
+            {
+                maxAverage = Average(b);
+            }
+            if (Average(c) > maxAverage)
+            {
+                maxAverage = Average(c);
+            }
+            Console.WriteLine(maxAverage);
+           foreach (var item in c)
+            {
+                Console.Write(item + " ");
+            }
+        }
+        public static void CalculateExpressionForArrayC(int arrayLength, double[] a, double[] b, double[] c)
+            {
+            int j = 0, n = arrayLength;
+            while (j != n)
+                 {
+                     for (int i = 0; i < n; i++)
+                     {
+                    c[j] = a[i] + (((n * n) + 1) * b[n - 1]);
+                    arrayLength--;
+                    j++;
+                     }
+
+                 }
+            }
+        public static double[] EnterArray(int arrayLength)
+        {
+            double[] a = new double[arrayLength];
+            for (int i = 0; i < arrayLength; i++)
+            {
+
                 Console.Write("arr[" + i + "]=");
                 a[i] = double.Parse(Console.ReadLine());
+               
             }
+            return a;
         }
         public static double Average(double[] a)
         {
