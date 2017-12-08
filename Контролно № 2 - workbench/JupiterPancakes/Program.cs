@@ -17,7 +17,8 @@ namespace JupiterPancakes
                 {
                     String line = sr.ReadToEnd();
                     Console.WriteLine(line);
-                  
+                   int ress= CalcultateHeight(line);
+                    Console.WriteLine(ress);
                 }
             }
             catch (Exception e)
@@ -36,22 +37,6 @@ namespace JupiterPancakes
             }
             return sum;
         }
-       public static void EnergyAtImpact(int height)
-        {
-            try
-            {
-                using (StreamReader sr = new StreamReader("Planets.txt"))
-                {
-                    String line = sr.ReadToEnd();
-                    Console.WriteLine(line);
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("The file could not be read:");
-                Console.WriteLine(e.Message);
-            }
-
-        }
+     
     }
 }
