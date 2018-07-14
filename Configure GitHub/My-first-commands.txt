@@ -1,0 +1,79 @@
+/* 
+	This will change to physical directory of you hard drive.
+	'cd' comes from 'change directory/folder'.
+*/
+
+cd D://
+-------------------------------------------------------------
+
+/* 
+	You can create a work folder in the current directory.
+	If you want to use spaces in the name - use quotes. Otherwise you will get an error message.
+	'mkdir' comes for 'make directory/folder'.
+*/
+
+mkdir my-cool-projects
+or
+mkdir MyCoolProjects
+or
+mkdir "My Cool Projects"
+-------------------------------------------------------------
+
+/*
+	You can create just for fun a blank text file in you newly created directory/folder.
+*/
+
+new-item D://my-cool-projects/my-fake-file.txt -itemtype file
+-------------------------------------------------------------
+
+/* 
+	The 'git' commands are used to be differed from the 'regular' ones.
+	The 'regular' ones are related to the local machine only.
+	Git commands are regognized by the PowerShell console with a special meaning.
+	In this case we will use them to connect and store data and files to repository 
+	which is placed on a remote server somewhere in the world. It can be anywhere.
+	Keep in mind that server location is oriented from the price and 
+	if in Japan or in India is cheaper than UK ot Australia, then the server will be placed in
+	the cheapest area. Managing servers is oftean a company busness policy and not all the time
+	it is affected by the lower price. If you pay more - you get more. Keep in mind.
+ */
+-------------------------------------------------------------
+
+ /* 
+	Initialize new repo in the current directory of my local machine hard drive.
+ */
+ 
+git init
+-------------------------------------------------------------
+
+/*
+	When you include the dot '.' this means thath you want to include all files
+	which are created in this directory to the repository. 
+	It means 'add all' files to the initialized repo in the current directory.
+*/
+
+git add .
+-------------------------------------------------------------
+
+/*
+	Most important part is when you describe your changes.
+	Give a short and meaningful explanation of why you are doing this changes 
+	and what is been changed, deleted or included. 
+	This is important when you collaborate with your team.
+	The people from your team should know why your changes are related to.
+*/
+
+git commit -m "Included std1a-3a-names.txt into Course 'Intro with C# 2017' folder."
+-------------------------------------------------------------
+
+/*
+	The most hard work command.
+	This means that all your changes are pushed to the remote server.
+	They are stored and later can be dowloaded, refactored, updated and pushed back.
+	So that all team members will be up-to-date in a manner of seconds.
+	If all goes well you should see the changes on your GitHub web portal.
+*/
+
+git push
+-------------------------------------------------------------
+
