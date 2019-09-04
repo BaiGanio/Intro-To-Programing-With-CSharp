@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2042
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework1", "Homework1", "{18B31298-3F22-41C4-AB2B-045EBD83F3D1}"
 EndProject
@@ -41,9 +41,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STD-LusianManolov-170168100
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STD-LusianManolov-1701681009-H5-Task2", "STD-LusianManolov-1701681009-H5-Task2\STD-LusianManolov-1701681009-H5-Task2.csproj", "{31FA7890-F76B-494D-8DB8-AE1B252EC671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeAfter10Years", "AgeAfter10Years\AgeAfter10Years.csproj", "{0249533B-999A-4472-A498-02F370521A2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgeAfter10Years", "AgeAfter10Years\AgeAfter10Years.csproj", "{0249533B-999A-4472-A498-02F370521A2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUniqueNumber", "MyUniqueNumber\MyUniqueNumber.csproj", "{3E89CC5B-4F61-44AF-AE81-568934B0F253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyUniqueNumber", "MyUniqueNumber\MyUniqueNumber.csproj", "{3E89CC5B-4F61-44AF-AE81-568934B0F253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tatyana", "Tatyana", "{5A4EDF47-3C4C-4E34-B5B8-CEB9E95EC791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{20688EEB-6869-4952-90F0-027C4CAB90B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +119,10 @@ Global
 		{3E89CC5B-4F61-44AF-AE81-568934B0F253}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E89CC5B-4F61-44AF-AE81-568934B0F253}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E89CC5B-4F61-44AF-AE81-568934B0F253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20688EEB-6869-4952-90F0-027C4CAB90B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20688EEB-6869-4952-90F0-027C4CAB90B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20688EEB-6869-4952-90F0-027C4CAB90B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20688EEB-6869-4952-90F0-027C4CAB90B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,6 +144,7 @@ Global
 		{31FA7890-F76B-494D-8DB8-AE1B252EC671} = {FBF9B20D-3039-4985-921F-ABD98981DD78}
 		{0249533B-999A-4472-A498-02F370521A2C} = {18B31298-3F22-41C4-AB2B-045EBD83F3D1}
 		{3E89CC5B-4F61-44AF-AE81-568934B0F253} = {18B31298-3F22-41C4-AB2B-045EBD83F3D1}
+		{20688EEB-6869-4952-90F0-027C4CAB90B8} = {5A4EDF47-3C4C-4E34-B5B8-CEB9E95EC791}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A683B880-FE95-4771-9D90-D88C23DAD0A9}
