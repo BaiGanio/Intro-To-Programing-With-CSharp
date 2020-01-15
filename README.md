@@ -1,9 +1,9 @@
-# PU-Intro-with-CSharp
-Course in the program of the first semester at the Plovdiv University.
+# IntroCSharp
+Series of basic examples with C# on top of .NET Core framework with VS Code
 ***
-### For resources, video examples and how to navigate into the repo... check out our [`Wiki`](https://github.com/BaiGanio/PU-Intro-with-CSharp/wiki).
+### For resources, video examples and how to navigate into the repo... check out our [`Wiki`](https://github.com/BaiGanio/IntroCSharp/wiki).
 
-<a href="https://github.com/BaiGanio/PU-Intro-with-CSharp/wiki">
-    <img src="https://raw.githubusercontent.com/BaiGanio/PU-Intro-with-CSharp/bgteam/Useful%20things/images/intro-wiki.png" />
+<a href="https://github.com/BaiGanio/IntroCSharp/wiki">
+    <img src="https://raw.githubusercontent.com/BaiGanio/IntroCSharp/master/Useful%20things/images/intro-wiki.png" />
 </a>
 
