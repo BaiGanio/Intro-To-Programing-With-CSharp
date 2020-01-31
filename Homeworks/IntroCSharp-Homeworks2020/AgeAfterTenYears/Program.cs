@@ -6,7 +6,7 @@ namespace AgeAfterTenYears
     {
         static void Main(string[] args)
         {
-            int age = 20;
+            int age = 30;
             Console.WriteLine($"Age {age} after 10 years will be -> {age + 10}");
         }
     }
