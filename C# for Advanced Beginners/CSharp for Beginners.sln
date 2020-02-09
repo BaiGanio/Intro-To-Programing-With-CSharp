@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34.Multiple-Class-Inheritance-Problems", "MultipleClassInheritanceProblems\34.Multiple-Class-Inheritance-Problems.csproj", "{A4EC2AAD-7DBE-4763-B341-4CA137149082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35.Multiple-ClassI-nheritance-Using-Interfaces", "MultipleClassInheritanceUsingInterfaces\35.Multiple-ClassI-nheritance-Using-Interfaces.csproj", "{2A9D0A7E-FA7A-457D-AA0A-D0A6AB9BF088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36.Delegates", "Delegates\36.Delegates.csproj", "{1D922D95-40E5-4DE8-93D1-FF3A9E31009A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37.Delegates-Demo", "DelegatesDemo\37.Delegates-Demo.csproj", "{20AA2B51-A132-45BC-A0A7-492592C24F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "39.Multicast-Delegate", "MulticastDelegate\39.Multicast-Delegate.csproj", "{616725E6-05B3-4BF3-90F7-7F7CCCED2A22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4EC2AAD-7DBE-4763-B341-4CA137149082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4EC2AAD-7DBE-4763-B341-4CA137149082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4EC2AAD-7DBE-4763-B341-4CA137149082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4EC2AAD-7DBE-4763-B341-4CA137149082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9D0A7E-FA7A-457D-AA0A-D0A6AB9BF088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9D0A7E-FA7A-457D-AA0A-D0A6AB9BF088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9D0A7E-FA7A-457D-AA0A-D0A6AB9BF088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9D0A7E-FA7A-457D-AA0A-D0A6AB9BF088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D922D95-40E5-4DE8-93D1-FF3A9E31009A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D922D95-40E5-4DE8-93D1-FF3A9E31009A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D922D95-40E5-4DE8-93D1-FF3A9E31009A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D922D95-40E5-4DE8-93D1-FF3A9E31009A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20AA2B51-A132-45BC-A0A7-492592C24F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20AA2B51-A132-45BC-A0A7-492592C24F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20AA2B51-A132-45BC-A0A7-492592C24F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20AA2B51-A132-45BC-A0A7-492592C24F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616725E6-05B3-4BF3-90F7-7F7CCCED2A22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616725E6-05B3-4BF3-90F7-7F7CCCED2A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616725E6-05B3-4BF3-90F7-7F7CCCED2A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616725E6-05B3-4BF3-90F7-7F7CCCED2A22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6663502-5067-4A0A-8266-A2E8BCE080B6}
+	EndGlobalSection
+EndGlobal
