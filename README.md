@@ -1,5 +1,5 @@
 # IntroCSharp
-Series of basic examples with C# on top of .NET Core framework with VS Code
+Series of basic examples with C# on top of .NET Core framework with Visual Studio
 - _For resources, video examples and how to navigate into the repo... check out our [`Wiki`](https://github.com/BaiGanio/IntroCSharp/wiki)._
 ***
 
