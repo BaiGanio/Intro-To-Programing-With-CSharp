@@ -19,8 +19,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourthDigit", "FourthDigit\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelingToSunWithSoundSpeed", "TravelingToSunWithSoundSpeed\TravelingToSunWithSoundSpeed.csproj", "{8DC48962-245C-4A2A-B935-B190E54070BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{56CB709D-DCCB-47FA-9C88-38858C31E94B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,10 +49,6 @@ Global
 		{8DC48962-245C-4A2A-B935-B190E54070BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DC48962-245C-4A2A-B935-B190E54070BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DC48962-245C-4A2A-B935-B190E54070BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{56CB709D-DCCB-47FA-9C88-38858C31E94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56CB709D-DCCB-47FA-9C88-38858C31E94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56CB709D-DCCB-47FA-9C88-38858C31E94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56CB709D-DCCB-47FA-9C88-38858C31E94B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
