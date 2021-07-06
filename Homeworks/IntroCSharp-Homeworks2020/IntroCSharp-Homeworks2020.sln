@@ -5,19 +5,21 @@ VisualStudioVersion = 16.0.29721.120
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week1", "Week1", "{E7CA4231-22C1-42DA-A835-7BCE46D4F306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{29CE9054-89AD-4BEB-8CE3-3318C44E6EF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{29CE9054-89AD-4BEB-8CE3-3318C44E6EF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiProgram", "HiProgram\HiProgram.csproj", "{16D8E04C-C80E-4446-8E7C-83A473791D97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiProgram", "HiProgram\HiProgram.csproj", "{16D8E04C-C80E-4446-8E7C-83A473791D97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeAfterTenYears", "AgeAfterTenYears\AgeAfterTenYears.csproj", "{E0D6C07D-7000-4B9F-A6C1-27C71886E813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgeAfterTenYears", "AgeAfterTenYears\AgeAfterTenYears.csproj", "{E0D6C07D-7000-4B9F-A6C1-27C71886E813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUniqueNumber", "MyUniqueNumber\MyUniqueNumber.csproj", "{4EAE6806-C96D-4B72-94F8-1DB3D438C230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyUniqueNumber", "MyUniqueNumber\MyUniqueNumber.csproj", "{4EAE6806-C96D-4B72-94F8-1DB3D438C230}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2", "Week2", "{456580A3-2313-486A-BF55-370A11FB01FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourthDigit", "FourthDigit\FourthDigit.csproj", "{5788AF5D-8D29-43D9-BFA9-8FAC181D985B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourthDigit", "FourthDigit\FourthDigit.csproj", "{5788AF5D-8D29-43D9-BFA9-8FAC181D985B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelingToSunWithSoundSpeed", "TravelingToSunWithSoundSpeed\TravelingToSunWithSoundSpeed.csproj", "{8DC48962-245C-4A2A-B935-B190E54070BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TravelingToSunWithSoundSpeed", "TravelingToSunWithSoundSpeed\TravelingToSunWithSoundSpeed.csproj", "{8DC48962-245C-4A2A-B935-B190E54070BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{56CB709D-DCCB-47FA-9C88-38858C31E94B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{8DC48962-245C-4A2A-B935-B190E54070BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DC48962-245C-4A2A-B935-B190E54070BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DC48962-245C-4A2A-B935-B190E54070BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CB709D-DCCB-47FA-9C88-38858C31E94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CB709D-DCCB-47FA-9C88-38858C31E94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CB709D-DCCB-47FA-9C88-38858C31E94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CB709D-DCCB-47FA-9C88-38858C31E94B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
