@@ -1,21 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30223.230
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharp.Common", "IntroCSharp.Common\IntroCSharp.Common.csproj", "{6D0F5C32-6C85-45FF-BFBA-3F46128E2BD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroCSharp.Common", "IntroCSharp.Common\IntroCSharp.Common.csproj", "{6D0F5C32-6C85-45FF-BFBA-3F46128E2BD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharp.Conceptual", "IntroCSharp.Conceptual\IntroCSharp.Conceptual.csproj", "{2CFB863F-188D-4C2D-A449-9BB83E071C17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroCSharp.Conceptual", "IntroCSharp.Conceptual\IntroCSharp.Conceptual.csproj", "{2CFB863F-188D-4C2D-A449-9BB83E071C17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharp.ExceptionHandling", "IntroCSharp.ExceptionHandling\IntroCSharp.ExceptionHandling.csproj", "{31318A27-5F48-40B8-A828-8264EFCED14C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroCSharp.ExceptionHandling", "IntroCSharp.ExceptionHandling\IntroCSharp.ExceptionHandling.csproj", "{31318A27-5F48-40B8-A828-8264EFCED14C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharp.TheFourPillarsOfOOP", "IntroCSharp.TheFourPillarsOfOOP\IntroCSharp.TheFourPillarsOfOOP.csproj", "{20210D26-D60A-4EF1-9C1A-F6C4C0E8DE40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroCSharp.TheFourPillarsOfOOP", "IntroCSharp.TheFourPillarsOfOOP\IntroCSharp.TheFourPillarsOfOOP.csproj", "{20210D26-D60A-4EF1-9C1A-F6C4C0E8DE40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharp.AccessModifiers", "IntroCSharp.AccessModifiers\IntroCSharp.AccessModifiers.csproj", "{1FA05AC4-9B58-407F-B0D0-CF11E4AFF17E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroCSharp.AccessModifiers", "IntroCSharp.AccessModifiers\IntroCSharp.AccessModifiers.csproj", "{1FA05AC4-9B58-407F-B0D0-CF11E4AFF17E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharp.Collections", "IntroCSharp.Collections\IntroCSharp.Collections.csproj", "{C00095AA-2374-4DDA-B5A7-D569AABB9280}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroCSharp.Collections", "IntroCSharp.Collections\IntroCSharp.Collections.csproj", "{C00095AA-2374-4DDA-B5A7-D569AABB9280}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharp.DelegatesAndEventHandlers", "IntroCSharp.DelegatesAndEventHandlers\IntroCSharp.DelegatesAndEventHandlers.csproj", "{BA0B41EC-8642-45E4-BA38-65F4A243929D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroCSharp.DelegatesAndEventHandlers", "IntroCSharp.DelegatesAndEventHandlers\IntroCSharp.DelegatesAndEventHandlers.csproj", "{BA0B41EC-8642-45E4-BA38-65F4A243929D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharp.LINQ", "IntroCSharp.LINQ\IntroCSharp.LINQ.csproj", "{FCA41B4F-5CE4-4321-86B8-53EE5AA7550A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{BA0B41EC-8642-45E4-BA38-65F4A243929D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA0B41EC-8642-45E4-BA38-65F4A243929D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA0B41EC-8642-45E4-BA38-65F4A243929D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA41B4F-5CE4-4321-86B8-53EE5AA7550A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA41B4F-5CE4-4321-86B8-53EE5AA7550A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA41B4F-5CE4-4321-86B8-53EE5AA7550A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA41B4F-5CE4-4321-86B8-53EE5AA7550A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

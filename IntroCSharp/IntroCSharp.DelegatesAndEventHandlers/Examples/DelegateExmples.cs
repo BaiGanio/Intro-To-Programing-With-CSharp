@@ -106,7 +106,30 @@ namespace IntroCSharp.DelegatesAndEventHandlers.Examples
         static void Logger(string s)
         {
             Console.WriteLine(s);
-        }
 
+            (bool isOdd, string message) doFunc(int a, int b) => a + b % 2 != 0
+                 ? (false, "Is not odd.")
+                 : (true, "Is odd.");
+
+            Console.WriteLine(doFunc(5, 10).isOdd);
+            Console.WriteLine(doFunc(15, 10).message);
+
+            (bool isBiggerInteger, string message) charFunc(char a, char b) => (int)a > (int)b
+                ? (true, $"{a} ({(int)a}) is bigger than {b} ({(int)b})")
+                : (false, $"{a} ({(int)a}) is smaller than {b} ({(int)b})");
+
+            Console.WriteLine(charFunc('n', 's'));
+            Console.WriteLine(charFunc('r', 'h'));
+
+            string stringFunc(int number) => $"The number is: {number}";
+            Console.WriteLine(stringFunc(56));
+
+            int intFunc(int number1) => DoStuff(number1);
+            Console.WriteLine(intFunc(18));
+        }
+        private static int DoStuff(int number1)
+        {
+            return number1 + 20;
+        }
     }
 }
