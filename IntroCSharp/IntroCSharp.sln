@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroCSharp.DelegatesAndEve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharp.LINQ", "IntroCSharp.LINQ\IntroCSharp.LINQ.csproj", "{FCA41B4F-5CE4-4321-86B8-53EE5AA7550A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Others", "Others\Others.csproj", "{DD5CA8F1-54A9-4F8D-A1DF-AFAF39DFB3C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryAddressOfAnObject", "MemoryAddressOfAnObject\MemoryAddressOfAnObject.csproj", "{594A7B5B-698F-4EB5-A22E-D7633E22A491}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{FCA41B4F-5CE4-4321-86B8-53EE5AA7550A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCA41B4F-5CE4-4321-86B8-53EE5AA7550A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCA41B4F-5CE4-4321-86B8-53EE5AA7550A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD5CA8F1-54A9-4F8D-A1DF-AFAF39DFB3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5CA8F1-54A9-4F8D-A1DF-AFAF39DFB3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5CA8F1-54A9-4F8D-A1DF-AFAF39DFB3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5CA8F1-54A9-4F8D-A1DF-AFAF39DFB3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594A7B5B-698F-4EB5-A22E-D7633E22A491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594A7B5B-698F-4EB5-A22E-D7633E22A491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594A7B5B-698F-4EB5-A22E-D7633E22A491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594A7B5B-698F-4EB5-A22E-D7633E22A491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
